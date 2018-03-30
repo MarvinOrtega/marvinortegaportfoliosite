@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="reset.css">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="pomodoro.css">
+</head>
+<body>
+<div id="holder">
+	<div class="display">
+		<span id="minutes">1</span>:<span id="seconds">00</span>
+		<br>
+	</div>
+	<div class="pomodoro">
+		<input type="button" name="Start" id="Start" value="Start">
+		<input type="button" name="Stop" id="Stop" value="Stop">
+		<input type="button" name="Reset" id="Reset" value="Reset">
+		<br>
+	</div>
+	<div class="settings">
+		Focus: <input type="button" name="-" id="focusMinus" value="-">
+		<span id="focusTime">1</span>
+		<input type="button" name="+" id="focusAdd" value="+">
+		Break: <input type="button" name="-" id="breakMinus" value="-">
+		<span id="breakTime">1</span>
+		<input type="button" name="+" id="breakAdd" value="+">
+		<br>
+	</div>
+</div>
+<script type="text/javascript" src="pomodoro.js"></script>
+</body>
+</html>

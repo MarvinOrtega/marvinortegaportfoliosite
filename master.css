@@ -3,23 +3,24 @@
 body {
   background-color: black;
   color: white;
-  font-size: 10px;
+  box-sizing: border-box;
 }
 
 header nav ul li {
-  width: 19%;
+  width: 24.7%;
 }
 
 section {
   font-size: 1.6em;
   position: absolute;
-  top: 40%;
+  top: 35%;
   text-align: center;
   width: 100%;
 }
 
 h3  {
   font-size: 1.8em;
+  margin: 0.2em;
 }
 
 footer {
@@ -29,7 +30,8 @@ footer {
 }
 
 footer nav ul li {
-  width: 45%;
+  width: 49.8%;
+  margin: 0;
 }
 
 nav ul li {
@@ -37,4 +39,10 @@ nav ul li {
   display: inline-block;
   box-sizing: border-box;
   text-align: center;
+  width: 100%;
+  border: 1px solid white;
+}
+
+a {
+  color: white;
 }
