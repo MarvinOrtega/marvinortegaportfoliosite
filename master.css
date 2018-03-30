@@ -1,4 +1,40 @@
-dark {
+/* Desktop screen size */
+
+body {
   background-color: black;
   color: white;
+  font-size: 10px;
+}
+
+header nav ul li {
+  width: 19%;
+}
+
+section {
+  font-size: 1.6em;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+}
+
+h3  {
+  font-size: 1.8em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav ul li {
+  width: 45%;
+}
+
+nav ul li {
+  font-size: 1.6em;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
 }
